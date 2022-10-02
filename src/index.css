@@ -1,0 +1,13 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: whitesmoke;
+  background-color: rgb(15, 74, 150);
+  font-size: 40px;
+}

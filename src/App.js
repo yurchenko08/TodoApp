@@ -9,6 +9,7 @@ function App() {
   const addTodoHandler = (text) => {
     setTodos([...todos, text]);
   };
+
   return (
     <div className='App'>
       <TodoForm addTodo={addTodoHandler} />

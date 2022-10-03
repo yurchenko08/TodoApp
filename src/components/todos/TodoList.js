@@ -1,11 +1,11 @@
 import React from "react";
 import Todo from "./Todo";
-function TodoList({ todos }) {
+function TodoList({ todos, deleteTodo }) {
   return (
     <>
-      {todos.length === 0 && <h3>Todo list is empty</h3>}
+      {!todos.length && <h3>Todo list is empty</h3>}
       {todos.map((todo, index) => (
-        <Todo key={index} todo={todo} />
+        <Todo key={index} todo={todo} index={index} deleteTodo={deleteTodo} />
       ))}
     </>
   );

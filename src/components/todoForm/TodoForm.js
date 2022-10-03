@@ -11,7 +11,7 @@ function TodoForm({ addTodo }) {
 
   return (
     <div className={styles.todoFormContainer}>
-      <h1>To do App</h1>
+      <h1>To do App for you</h1>
       <form onSubmit={onSubmitHandler}>
         <input
           placeholder='Enter new todo'

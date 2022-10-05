@@ -3,6 +3,7 @@ import TodoForm from "./components/todoForm/TodoForm";
 import TodoList from "./components/todos/TodoList";
 import "./App.css";
 import { v4 as uuidv4 } from "uuid";
+import TodosActions from "./components/todos/TodosActions";
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -39,6 +40,7 @@ function App() {
   return (
     <div className='App'>
       <TodoForm addTodo={addTodoHandler} />
+      <TodosActions />
       <TodoList
         todos={todos}
         deleteTodo={deleteTodoHandler}

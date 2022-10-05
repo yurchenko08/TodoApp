@@ -1,4 +1,4 @@
-# React Project for the React Course
+# My first react app
 
 ## Available Scripts
 
